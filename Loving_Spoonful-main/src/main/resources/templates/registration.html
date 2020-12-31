@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xml lang=eng xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../static/css/style.css">
+	<title>loving_spoonful</title>
+</head>
+
+<body class="page">
+	<div class="row jumbotron">.
+		<div class="col-sm-8 col-sm-offset-2">
+			<div th:if="!${success}"></div>
+			<h2>Create an account</h2>
+			<form th:action="@{/signup}" th:object="${user}" method="post" autocomplete="off">
+				<div class="form-group">
+					<label th:if="${#fields.hasErrors('username')}" th:errors="*{username}" class="validation-message"> </label> 
+						<input type="text" th:field="*{username}" placeholder="Username" class="form-control"  />
+					</div>
+					<div class="form-group">
+						<input type="password" th:field="*{password}" placeholder="Password" class="form-control" /> 
+						<label th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="validation-message"></label>
+					</div>
+					<div th:if="${success}">
+						<h2>
+							<span class="text-success" th:utext="${success}"></span>
+						</h2>
+						<br />
+					</div>
+					<div class="form-group">
+						<button class="btn btn-md btn-success btn-block" name="Submit" value="Submit" type="Submit" th:text="Submit">
+							Sign In
+						</button>
+					</div>
+				</form>
+				<div>
+					<form th:action="@{/login}" method="get">
+						<button class="btn btn-md btn-primary btn-block" type="Submit">
+							<h6>already have an account</h6>
+							<h4>LOGIN</h4>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <style th:inline="text">
+        body{
+			background: url([[@{../../../static/images/blueberries-in-heart-shaped-spoon-garry-gay.jpg)no-repeat center center fixed; 
+			background-size:cover;
+        }
+    </style> -->
+     
+</body>
+</html>

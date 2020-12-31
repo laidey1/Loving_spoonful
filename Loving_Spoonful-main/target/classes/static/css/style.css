@@ -1,0 +1,153 @@
+.btn-lg {
+	height: 180px;
+	width: 180px;
+}
+
+.page {
+	background-image: url("../images/blueberries-in-heart-shaped-spoon-garry-gay.jpg");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+}
+
+​.outer-box {
+	background-image: url("../images/grey.png");
+}
+
+​.white-txt {
+	color: azure;
+}
+
+
+
+
+.jumbotron {
+	background: transparent;
+}
+
+.form-control {
+	background: rgba(36, 26, 26, 0.5);
+}
+
+.button {
+	background-color: green;
+}
+
+.btn-md {
+	animation: none;
+}
+
+  /*-------*/
+ /* Foods */
+/*-------*/
+
+.choose {
+	background: url('../images/choose.png');
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.oatmeal {
+	background: url('../images/oatmeal.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.strata {
+	background: url('../images/strata.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.yogurt {
+	background: url('../images/yogurt.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.crab-eggs {
+	background: url('../images/crab-eggs.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.smoothie {
+	background: url('../images/smoothie.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.b-quiche {
+	background: url('../images/quiche-breakfast.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.soup {
+	background: url('../images/tomato-soup.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.nachos {
+	background: url('../images/nachos.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.lasagna {
+	background: url('../images/lasagna.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.tuna {
+	background: url('../images/tuna-melt.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.quiche-l {
+	background: url('../images/quiche-lunch.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shepherds {
+	background: url('../images/shepherds-pie.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.meatloaf {
+	background: url('../images/meatloaf.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.tacos {
+	background: url('../images/tacos.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.veal {
+	background: url('../images/veal.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.salmon {
+	background: url('../images/salmon.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bbq {
+	background: url('../images/bbq-beef.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.chili {
+	background: url('../images/chili.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
